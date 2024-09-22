@@ -10,4 +10,5 @@ match ( priority, time_bound):
         print(f"Reminder: {task} is low priority task that don't require immediiate attention")
     case (x,y) if x=="low" and y=="no":
         print(f"note: {task} is a low priority task. Consider completing it when you have free time.") 
-             
+    case _:
+        print("invalid input")
