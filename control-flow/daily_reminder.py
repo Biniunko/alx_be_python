@@ -7,12 +7,12 @@ match priority:
     case "medium":
         reminder = f"'{task}' is a {priority} priority task"
     case "low":
-        reminder = f"note: '{task}' is a {priority} priority task"
+        reminder = f"note: '{task}' is a {priority} priority task."
     case _:
         reminder = f"'{task}' has an unspecified priority"
 
 if time_bound == "yes":
-    print(f"{reminder} this requires immediate attention today!")
+    print(f"{reminder} that requires immediate attention today!")
 else:
-    print(f"{reminder} consider completing it when you have free time.")
+    print(f"{reminder} Consider completing it when you have free time.")
 print(reminder)
