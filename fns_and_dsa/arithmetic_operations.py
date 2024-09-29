@@ -10,4 +10,4 @@ def perform_operation(num1 , num2, operation):
             print("Division by zero is undefined")
         return num1/num2
     else:
-        raise ValueError(f"Invalid operation: {operation}")
+        return ValueError(f"Invalid operation: {operation}")
