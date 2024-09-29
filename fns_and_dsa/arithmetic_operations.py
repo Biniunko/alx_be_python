@@ -1,4 +1,4 @@
-def perform_operation(num1,num2,operation):
+def perform_operation(num1 , num2, operation):
     operation = operation.lower()
     if operation == "add":
         return num1 + num2
