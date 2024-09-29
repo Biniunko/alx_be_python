@@ -6,8 +6,8 @@ def perform_operation(num1 , num2, operation):
     elif operation == "multiply":
         return num1 * num2
     elif operation == "divide":
-        if num2 == 0:
-            return "Error: Cannot divide by zero"
-        return num1 / num2
+        if num2==0:
+            print("Division by zero is undefined")
+        return num1/num2
     else:
         raise ValueError(f"Invalid operation: {operation}")
