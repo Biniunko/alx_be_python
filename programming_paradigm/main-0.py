@@ -3,7 +3,7 @@ from bank_account import BankAccount
 
 
 def main():
-    account = BankAccount(100)  # Initial balance of $100
+    account = BankAccount(100)  
     if len(sys.argv) < 2:
         print("Usage: python main-0.py <command>:<amount>")
         print("Commands: deposit, withdraw, display")
