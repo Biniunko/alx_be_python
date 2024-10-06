@@ -1,6 +1,6 @@
 class BankAccount:
     def __init__(self, initial_balance=0):
-        self._account_balance = initial_balance  # Using encapsulation
+        self._account_balance = initial_balance
 
     def deposit(self, amount):
         if amount > 0:
